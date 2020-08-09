@@ -5,7 +5,7 @@ unsigned long milisegundos; //Setting timing variable
 
 void setup()
       {
-	 		Serial.begin(9600); //Starting serial communication
+	 	Serial.begin(9600); //Starting serial communication
            	Serial.print("Leitura de Tensão (V):"); //Voltage Title
            	Serial.print("\t");
 			Serial.print("\t");
